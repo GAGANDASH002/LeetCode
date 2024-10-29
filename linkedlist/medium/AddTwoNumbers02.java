@@ -11,7 +11,7 @@ package Leetcode.linkedlist.medium;
  *  
  * Example 1: 
  * 
-Input: l1 = [2,4,3], l2 = [5,6,4]
+Input: l1 = [2,4,3], l2 = [5,6,4]     
 Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 
@@ -30,7 +30,7 @@ class Solution {
         ListNode dummyHead = new ListNode(0);
         ListNode current = dummyHead;
         int carry = 0; // initialize carry for sums greater than 9
-        
+          
         while(l1 !=  null || l2 != null){
             int firstDigit = (l1 != null)? l1.val : 0;
             int secondDigit = (l2 != null)? l2.val : 0;
