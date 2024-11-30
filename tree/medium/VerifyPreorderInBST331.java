@@ -37,5 +37,5 @@ class Solution {
 
         // At end true if vacancy is zero else false
         return vacancy == 0;
-    }
+    } 
 }
