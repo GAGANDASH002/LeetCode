@@ -66,7 +66,7 @@ class Solution {
 
         int maxGap = bucketSize;// Maximum gap is always greater or equal to bucketSize
         int prev = maxBucket[0];// Store the max element of previous bucket
-        // Iterate through remaining buckets
+        // Iterate through remaining buckets 
         for(int i = 1; i < n; i++){
             if(minBucket[i] == Integer.MAX_VALUE) continue;
             // Update maxGap and move previous to maximum element of current bucket
