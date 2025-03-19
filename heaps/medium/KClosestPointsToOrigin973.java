@@ -1,3 +1,4 @@
+package medium;
 import java.util.*;
 
 class Solution {
