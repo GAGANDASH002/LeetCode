@@ -47,7 +47,7 @@ class Solution {
                 currZeros ++;
             }
         }
-
+  
         int minZeros = currZeros;
         int st = 0;
         int end = windowSize - 1;
