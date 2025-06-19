@@ -44,6 +44,6 @@ class Solution {
 
             res.add(max_val);
         }
-        return res;
+        return res; 
     }
 }
